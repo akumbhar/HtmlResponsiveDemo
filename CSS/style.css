@@ -174,7 +174,8 @@ opacity: 1;
     color: #7C7C7C;
     opacity: 1;
     }
-    .polygon_4{
+
+.polygon_4{
         /*     Layout Properties*/ 
         top: 377px;
         left: 1138px;
@@ -186,7 +187,7 @@ opacity: 1;
         opacity: 1;
         }
         
-        .Industry_Field{
+.Industry_Field{
             /* Layout Properties */
         top: 356px;
         left: 844px;
@@ -199,7 +200,7 @@ opacity: 1;
         opacity: 1;
         }
         
-        .Industry{
+.Industry{
         /* Layout Properties */
         top: 369px;
         left: 865px;
@@ -213,7 +214,7 @@ opacity: 1;
         opacity: 1;
         }
         
-        .place{
+.place{
             /* Layout Properties */
         top: 369px;
         left: 1197px;
@@ -227,7 +228,7 @@ opacity: 1;
         opacity: 1;
         }
         
-        .cooling{
+.cooling{
             /* Layout Properties */
         top: 427px;
         left: 1197px;
@@ -241,7 +242,7 @@ opacity: 1;
         opacity: 1;
         }
         
-        .submit_btn{
+.submit_btn{
         /* Layout Properties */
         top: 475px;
         left: 1010px;
@@ -254,7 +255,7 @@ opacity: 1;
         margin-top: 8px;
         }
         
-        .btn_text{
+.btn_text{
             /* Layout Properties */
         top: 484px;
         left: 1127px;
@@ -269,7 +270,7 @@ opacity: 1;
         opacity: 1;
         }
         
-        .layout2{
+.layout2{
             /* Layout Properties */
         top: 650px;
         left: 0px;
@@ -280,25 +281,35 @@ opacity: 1;
         opacity: 1;
         }
         
-        .layout_img{
+.layout_img{
             /* Layout Properties */
         top: 714px;
         left: 347px;
         width: 906px;
         height: 57px;
-        /* UI Properties */
+        /* UI Properties 
         background: transparent url('../img/Make\ Your\ Office\ Cool\ And\ Comfortable.svg') 0% 0% no-repeat padding-box;
+        */
+        text-align: center;
+        font: normal normal normal 48px Museo Sans;
+        color: #1c71b7;
         opacity: 1;
+        display: 48px;
+        
         }
         
-        .layout_img2{
+.layout_img2{
         /* Layout Properties */
         top: 821px;
         left: 300px;
         width: 1000px;
         height: 112px;
-        /* UI Properties */
+        /* UI Properties 
         background: transparent url('../img/Every\ office\ needs\ a\ cooling\ solution\ that\ keeps\ the\ office\ cool\ and\ fresh.\ Symphony\ Large\ Space\ Venti-Cooling\ is\ uniquely\ designed\ to\ keep\ your\ offic.svg') 0% 0% no-repeat padding-box;
+        */
+        text-align: center;
+        font: normal normal normal 22px Museo Sans;
+        color: #000000;
         opacity: 1;
         }
 }
@@ -319,7 +330,7 @@ left: 0px;
 width: 418px;
 height: 900px;
 /* UI Properties */
-background: transparent url('../img/Desktop\ Banner.png') 0% 0% no-repeat padding-box;
+background: transparent url('../img/Desktop\ Banner@2x.png') 0% 0% no-repeat padding-box;
 opacity: 1;
 }
 
@@ -407,5 +418,48 @@ opacity: 1;
     opacity: 1;
     margin-top: 6px;
     }
+
+
+.mobile_layout_2{
+    /* Layout Properties */
+top: 1680px;
+left: 0px;
+width: 418px;
+height: 514px;
+/* UI Properties */
+background: #FFFFFF 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+
+.mobile_layout_img{
+    /* Layout Properties */
+top: 1711px;
+left: 55px;
+width: 296px;
+height: 66px;
+/* UI Properties 
+background: transparent url('../img/Make\ Your\ Office\ Cool\ And\ Comfortable.svg') 0% 0% no-repeat padding-box;
+*/
+text-align: center;
+    font: normal normal normal 28px Museo Sans;
+    color: #1c71b7;
+    opacity: 1;
     
+
+}
+ 
+.mobile_layout_img2{
+    /* Layout Properties */
+top: 1821px;
+left: 41px;
+width: 336px;
+height: 317px;
+/* UI Properties 
+background: transparent url('../img/Every\ office\ needs\ a\ cooling\ solution\ that\ keeps\ the\ office\ cool\ and\ fresh.\ Symphony\ Large\ Space\ Venti-Cooling\ is\ uniquely\ designed\ to\ keep\ your\ offic.svg') 0% 0% no-repeat padding-box;
+*/
+text-align: center;
+    font: normal normal normal 22px Museo Sans;
+    color: #000000;
+opacity: 1;
+}
 }
