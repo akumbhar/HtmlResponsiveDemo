@@ -1,6 +1,7 @@
 @media only screen and (min-width: 768px ) and (max-width:1605px) {
  /* Layout Properties */
  .banner{
+    position: relative;
     top: 0px;
 left: 0px;
 width: 1600px;
@@ -64,6 +65,7 @@ opacity: 1;
 
 .visit_layout{
     /* Layout Properties */
+    position: absolute;
     top: 104px;
     left: 820px;
     margin-right: 80px;
@@ -118,30 +120,6 @@ letter-spacing: -0.42px;
 color: #7C7C7C;
 opacity: 1;
 }
-}
-
-
-.mobile_name_field{
-    /* Layout Properties */
-top: 1057px;
-left: 67px;
-width: 283px;
-height: 33px;
-/* UI Properties */
-background: #FFFFFF 0% 0% no-repeat padding-box;
-box-shadow: 0px 2px 0px #175193;
-border-radius: 4px;
-opacity: 1;
-text-align: left;
-font: normal normal normal 13px/18px Museo Sans;
-letter-spacing: -0.33px;
-color: #7C7C7C;
-opacity: 1;
-margin-top: 6px;
-}
-
-
-
 
 .Company_Name_Field{
     /* Layout Properties */
@@ -171,160 +149,163 @@ opacity: 1;
 }
 
 .Designation_Field{
-/* Layout Properties */
-top: 243px;
-left: 844px;
-width: 320px;
-height: 28px;
-/* UI Properties */
-background: #FFFFFF 0% 0% no-repeat padding-box;
-box-shadow: 0px 2px 0px #175193;
-border-radius: 4px;
-opacity: 1;
-}
+    /* Layout Properties */
+    top: 243px;
+    left: 844px;
+    width: 320px;
+    height: 28px;
+    /* UI Properties */
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 2px 0px #175193;
+    border-radius: 4px;
+    opacity: 1;
+    }
 
 .Designation{
-    /* Layout Properties */
-top: 256px;
-left: 865px;
-width: 90px;
-height: 20px;
-/* UI Properties */
-text-align: left;
-font: normal normal normal 17px/20px Museo Sans;
-letter-spacing: -0.42px;
-color: #7C7C7C;
-opacity: 1;
+        /* Layout Properties */
+    top: 256px;
+    left: 865px;
+    width: 90px;
+    height: 20px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal normal 17px/20px Museo Sans;
+    letter-spacing: -0.42px;
+    color: #7C7C7C;
+    opacity: 1;
+    }
+    .polygon_4{
+        /*     Layout Properties*/ 
+        top: 377px;
+        left: 1138px;
+        width: 11px;
+        height: 6px;
+        transform: matrix(-1, 0, 0, -1, 0, 0);
+        /* UI Properties
+        background: #175193 0% 0% no-repeat padding-box;*/
+        opacity: 1;
+        }
+        
+        .Industry_Field{
+            /* Layout Properties */
+        top: 356px;
+        left: 844px;
+        width: 320px;
+        height: 28px;
+        /* UI Properties */
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        box-shadow: 0px 2px 0px #175193;
+        border-radius: 4px;
+        opacity: 1;
+        }
+        
+        .Industry{
+        /* Layout Properties */
+        top: 369px;
+        left: 865px;
+        width: 111px;
+        height: 20px;
+        /* UI Properties */
+        text-align: left;
+        font: normal normal normal 17px/20px Museo Sans;
+        letter-spacing: -0.42px;
+        color: #7C7C7C;
+        opacity: 1;
+        }
+        
+        .place{
+            /* Layout Properties */
+        top: 369px;
+        left: 1197px;
+        width: 139px;
+        height: 20px;
+        /* UI Properties */
+        text-align: left;
+        font: normal normal normal 17px/20px Museo Sans;
+        letter-spacing: -0.42px;
+        color: #7C7C7C;
+        opacity: 1;
+        }
+        
+        .cooling{
+            /* Layout Properties */
+        top: 427px;
+        left: 1197px;
+        width: 168px;
+        height: 20px;
+        /* UI Properties */
+        text-align: left;
+        font: normal normal normal 17px/20px Museo Sans;
+        letter-spacing: -0.42px;
+        color: #7C7C7C;
+        opacity: 1;
+        }
+        
+        .submit_btn{
+        /* Layout Properties */
+        top: 475px;
+        left: 1010px;
+        width: 321px;
+        height: 48px;
+        /* UI Properties */
+        background: #C0D941 0% 0% no-repeat padding-box;
+        box-shadow: inset 0px 35px 5px #CDE069;
+        opacity: 1;
+        margin-top: 8px;
+        }
+        
+        .btn_text{
+            /* Layout Properties */
+        top: 484px;
+        left: 1127px;
+        width: 86px;
+        height: 28px;
+        /* UI Properties */
+        text-align: center;
+        font: normal normal normal 23px/19px Museo Sans;
+        letter-spacing: 0px;
+        color: #000000;
+        text-transform: uppercase;
+        opacity: 1;
+        }
+        
+        .layout2{
+            /* Layout Properties */
+        top: 650px;
+        left: 0px;
+        width: 1600px;
+        height: 362px;
+        /* UI Properties */
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        opacity: 1;
+        }
+        
+        .layout_img{
+            /* Layout Properties */
+        top: 714px;
+        left: 347px;
+        width: 906px;
+        height: 57px;
+        /* UI Properties */
+        background: transparent url('../img/Make\ Your\ Office\ Cool\ And\ Comfortable.svg') 0% 0% no-repeat padding-box;
+        opacity: 1;
+        }
+        
+        .layout_img2{
+        /* Layout Properties */
+        top: 821px;
+        left: 300px;
+        width: 1000px;
+        height: 112px;
+        /* UI Properties */
+        background: transparent url('../img/Every\ office\ needs\ a\ cooling\ solution\ that\ keeps\ the\ office\ cool\ and\ fresh.\ Symphony\ Large\ Space\ Venti-Cooling\ is\ uniquely\ designed\ to\ keep\ your\ offic.svg') 0% 0% no-repeat padding-box;
+        opacity: 1;
+        }
 }
 
 
-.polygon_4{
-/*     Layout Properties*/ 
-top: 377px;
-left: 1138px;
-width: 11px;
-height: 6px;
-transform: matrix(-1, 0, 0, -1, 0, 0);
-/* UI Properties
-background: #175193 0% 0% no-repeat padding-box;*/
-opacity: 1;
-}
 
-.Industry_Field{
-    /* Layout Properties */
-top: 356px;
-left: 844px;
-width: 320px;
-height: 28px;
-/* UI Properties */
-background: #FFFFFF 0% 0% no-repeat padding-box;
-box-shadow: 0px 2px 0px #175193;
-border-radius: 4px;
-opacity: 1;
-}
 
-.Industry{
-/* Layout Properties */
-top: 369px;
-left: 865px;
-width: 111px;
-height: 20px;
-/* UI Properties */
-text-align: left;
-font: normal normal normal 17px/20px Museo Sans;
-letter-spacing: -0.42px;
-color: #7C7C7C;
-opacity: 1;
-}
-
-.place{
-    /* Layout Properties */
-top: 369px;
-left: 1197px;
-width: 139px;
-height: 20px;
-/* UI Properties */
-text-align: left;
-font: normal normal normal 17px/20px Museo Sans;
-letter-spacing: -0.42px;
-color: #7C7C7C;
-opacity: 1;
-}
-
-.cooling{
-    /* Layout Properties */
-top: 427px;
-left: 1197px;
-width: 168px;
-height: 20px;
-/* UI Properties */
-text-align: left;
-font: normal normal normal 17px/20px Museo Sans;
-letter-spacing: -0.42px;
-color: #7C7C7C;
-opacity: 1;
-}
-
-.submit_btn{
-/* Layout Properties */
-top: 475px;
-left: 1010px;
-width: 321px;
-height: 48px;
-/* UI Properties */
-background: #C0D941 0% 0% no-repeat padding-box;
-box-shadow: inset 0px 35px 5px #CDE069;
-opacity: 1;
-margin-top: 8px;
-}
-
-.btn_text{
-    /* Layout Properties */
-top: 484px;
-left: 1127px;
-width: 86px;
-height: 28px;
-/* UI Properties */
-text-align: center;
-font: normal normal normal 23px/19px Museo Sans;
-letter-spacing: 0px;
-color: #000000;
-text-transform: uppercase;
-opacity: 1;
-}
-
-.layout2{
-    /* Layout Properties */
-top: 650px;
-left: 0px;
-width: 1600px;
-height: 362px;
-/* UI Properties */
-background: #FFFFFF 0% 0% no-repeat padding-box;
-opacity: 1;
-}
-
-.layout_img{
-    /* Layout Properties */
-top: 714px;
-left: 347px;
-width: 906px;
-height: 57px;
-/* UI Properties */
-background: transparent url('../img/Make\ Your\ Office\ Cool\ And\ Comfortable.svg') 0% 0% no-repeat padding-box;
-opacity: 1;
-}
-
-.layout_img2{
-/* Layout Properties */
-top: 821px;
-left: 300px;
-width: 1000px;
-height: 112px;
-/* UI Properties */
-background: transparent url('../img/Every\ office\ needs\ a\ cooling\ solution\ that\ keeps\ the\ office\ cool\ and\ fresh.\ Symphony\ Large\ Space\ Venti-Cooling\ is\ uniquely\ designed\ to\ keep\ your\ offic.svg') 0% 0% no-repeat padding-box;
-opacity: 1;
-}
 
 /* .For Mobile View. */
 
@@ -407,4 +388,24 @@ opacity: 1;
     background: #FFFFFF 0% 0% no-repeat padding-box;
     opacity: 1;
     }
+
+.mobile_name_field{
+        /* Layout Properties */
+    top: 1057px;
+    left: 67px;
+    width: 283px;
+    height: 33px;
+    /* UI Properties */
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 2px 0px #175193;
+    border-radius: 4px;
+    opacity: 1;
+    text-align: left;
+    font: normal normal normal 13px/18px Museo Sans;
+    letter-spacing: -0.33px;
+    color: #7C7C7C;
+    opacity: 1;
+    margin-top: 6px;
+    }
+    
 }
