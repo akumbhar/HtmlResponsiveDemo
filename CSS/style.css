@@ -1,0 +1,410 @@
+@media only screen and (min-width: 768px ) and (max-width:1605px) {
+ /* Layout Properties */
+ .banner{
+    top: 0px;
+left: 0px;
+width: 1600px;
+height: 650px;
+/* UI Properties */
+background: transparent url('../img/Desktop\ Banner.png') 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+
+
+.logo{
+    /* Layout Properties */
+    top: 47px;
+    left: 88px;
+    width: 371px;
+    height: 80px;
+    /* UI Properties */
+    background: transparent url('../img/Logo.png') 30% 30px no-repeat padding-box;
+    opacity: 1;
+}
+
+.venti_cooling{
+/* Layout Properties */
+top: 107px;
+left: 80px;
+width: 286px;
+height: 18px;
+/* UI Properties 
+background: transparent url('../img/Large\ Space\ Venti-Cooling.svg') 0% 0% no-repeat padding-box;*/
+font: normal normal normal 15px Museo Sans;
+color: #FFFFFF;
+opacity: 1;
+padding-top: 4px;
+text-align: center;
+opacity: 1;
+}
+
+.cooling_sol{
+    /* Layout Properties */
+top: 168px;
+left: 341px;
+width: 436px;
+height: 184px;
+/* UI Properties */
+background: transparent url('../img/Energy-EfficientCooling\ SolutionsFor\ Offices.svg') 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+
+.ofc{
+    top: 168px;
+    left: 341px;
+    width: 436px;
+    height: 184px;
+    font: normal normal normal 55px Museo Sans;
+    letter-spacing: -0.96px;
+    color: #b1ca35;
+/* UI Properties */
+/*background: transparent url('../img/Energy-EfficientCooling\ SolutionsFor\ Offices.svg') 0% 0% no-repeat padding-box;*/
+    opacity: 1;
+}
+
+.visit_layout{
+    /* Layout Properties */
+    top: 104px;
+    left: 820px;
+    margin-right: 80px;
+    width: 700px;
+    height: 343px;
+    /* UI Properties */
+    background: #3077C7 0% 0% no-repeat padding-box;
+    border-radius: 12px;
+    opacity: 0.9;
+    float:right;
+  
+    }
+
+.text{
+        /*Text*/
+        /* Layout Properties */
+top: 133px;
+left: 889px;
+width: 562px;
+height: 31px;
+/* UI Properties */
+text-align: center;
+font: normal normal normal 24px Museo Sans;
+letter-spacing: -0.65px;
+color: #FFFFFF;
+opacity: 1;
+padding-top: 29px;
+}
+
+.Name_Field{
+    /* Layout Properties */
+top: 186px;
+left: 844px;
+width: 320px;
+height: 28px;
+/* UI Properties */
+background: #FFFFFF 0% 0% no-repeat padding-box;
+box-shadow: 0px 2px 0px #175193;
+opacity: 1;
+}
+ 
+.Name{
+    /* Layout Properties */
+top: 199px;
+left: 865px;
+width: 46px;
+height: 20px;
+/* UI Properties */
+text-align: left;
+font: normal normal normal 17px/20px Museo Sans;
+letter-spacing: -0.42px;
+color: #7C7C7C;
+opacity: 1;
+}
+}
+
+
+.mobile_name_field{
+    /* Layout Properties */
+top: 1057px;
+left: 67px;
+width: 283px;
+height: 33px;
+/* UI Properties */
+background: #FFFFFF 0% 0% no-repeat padding-box;
+box-shadow: 0px 2px 0px #175193;
+border-radius: 4px;
+opacity: 1;
+text-align: left;
+font: normal normal normal 13px/18px Museo Sans;
+letter-spacing: -0.33px;
+color: #7C7C7C;
+opacity: 1;
+margin-top: 6px;
+}
+
+
+
+
+.Company_Name_Field{
+    /* Layout Properties */
+top: 186px;
+left: 1176px;
+width: 320px;
+height: 28px;
+/* UI Properties */
+background: #FFFFFF 0% 0% no-repeat padding-box;
+box-shadow: 0px 2px 0px #175193;
+border-radius: 4px;
+opacity: 1;
+}
+
+.Company_Name{
+    /* Layout Properties */
+top: 199px;
+left: 1197px;
+width: 123px;
+height: 20px;
+/* UI Properties */
+text-align: left;
+font: normal normal normal 17px/20px Museo Sans;
+letter-spacing: -0.42px;
+color: #7C7C7C;
+opacity: 1;
+}
+
+.Designation_Field{
+/* Layout Properties */
+top: 243px;
+left: 844px;
+width: 320px;
+height: 28px;
+/* UI Properties */
+background: #FFFFFF 0% 0% no-repeat padding-box;
+box-shadow: 0px 2px 0px #175193;
+border-radius: 4px;
+opacity: 1;
+}
+
+.Designation{
+    /* Layout Properties */
+top: 256px;
+left: 865px;
+width: 90px;
+height: 20px;
+/* UI Properties */
+text-align: left;
+font: normal normal normal 17px/20px Museo Sans;
+letter-spacing: -0.42px;
+color: #7C7C7C;
+opacity: 1;
+}
+
+
+.polygon_4{
+/*     Layout Properties*/ 
+top: 377px;
+left: 1138px;
+width: 11px;
+height: 6px;
+transform: matrix(-1, 0, 0, -1, 0, 0);
+/* UI Properties
+background: #175193 0% 0% no-repeat padding-box;*/
+opacity: 1;
+}
+
+.Industry_Field{
+    /* Layout Properties */
+top: 356px;
+left: 844px;
+width: 320px;
+height: 28px;
+/* UI Properties */
+background: #FFFFFF 0% 0% no-repeat padding-box;
+box-shadow: 0px 2px 0px #175193;
+border-radius: 4px;
+opacity: 1;
+}
+
+.Industry{
+/* Layout Properties */
+top: 369px;
+left: 865px;
+width: 111px;
+height: 20px;
+/* UI Properties */
+text-align: left;
+font: normal normal normal 17px/20px Museo Sans;
+letter-spacing: -0.42px;
+color: #7C7C7C;
+opacity: 1;
+}
+
+.place{
+    /* Layout Properties */
+top: 369px;
+left: 1197px;
+width: 139px;
+height: 20px;
+/* UI Properties */
+text-align: left;
+font: normal normal normal 17px/20px Museo Sans;
+letter-spacing: -0.42px;
+color: #7C7C7C;
+opacity: 1;
+}
+
+.cooling{
+    /* Layout Properties */
+top: 427px;
+left: 1197px;
+width: 168px;
+height: 20px;
+/* UI Properties */
+text-align: left;
+font: normal normal normal 17px/20px Museo Sans;
+letter-spacing: -0.42px;
+color: #7C7C7C;
+opacity: 1;
+}
+
+.submit_btn{
+/* Layout Properties */
+top: 475px;
+left: 1010px;
+width: 321px;
+height: 48px;
+/* UI Properties */
+background: #C0D941 0% 0% no-repeat padding-box;
+box-shadow: inset 0px 35px 5px #CDE069;
+opacity: 1;
+margin-top: 8px;
+}
+
+.btn_text{
+    /* Layout Properties */
+top: 484px;
+left: 1127px;
+width: 86px;
+height: 28px;
+/* UI Properties */
+text-align: center;
+font: normal normal normal 23px/19px Museo Sans;
+letter-spacing: 0px;
+color: #000000;
+text-transform: uppercase;
+opacity: 1;
+}
+
+.layout2{
+    /* Layout Properties */
+top: 650px;
+left: 0px;
+width: 1600px;
+height: 362px;
+/* UI Properties */
+background: #FFFFFF 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+
+.layout_img{
+    /* Layout Properties */
+top: 714px;
+left: 347px;
+width: 906px;
+height: 57px;
+/* UI Properties */
+background: transparent url('../img/Make\ Your\ Office\ Cool\ And\ Comfortable.svg') 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+
+.layout_img2{
+/* Layout Properties */
+top: 821px;
+left: 300px;
+width: 1000px;
+height: 112px;
+/* UI Properties */
+background: transparent url('../img/Every\ office\ needs\ a\ cooling\ solution\ that\ keeps\ the\ office\ cool\ and\ fresh.\ Symphony\ Large\ Space\ Venti-Cooling\ is\ uniquely\ designed\ to\ keep\ your\ offic.svg') 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+
+/* .For Mobile View. */
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+
+.mobile_banner{
+    /* Layout Properties */
+top: 0px;
+left: 0px;
+width: 418px;
+height: 900px;
+/* UI Properties */
+background: transparent url('../img/Desktop\ Banner.png') 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+
+
+.mobile_logo{
+    /* Layout Properties */
+    top: 43px;
+left: 51px;
+width: 50%;
+height: 80px;
+
+/* UI Properties */
+background: transparent url('../img/Logo.png') 20% 80% no-repeat padding-box;
+opacity: 1;
+}
+
+.mobile_venti_cooling{
+    /* Layout Properties */
+    top: 87px;
+    left: 42px;    
+width: 50%;
+height: 20px;
+/* UI Properties */
+font: normal normal normal 15px Museo Sans;
+color: #FFFFFF;
+opacity: 1;
+padding-top: 4px;
+text-align: center;
+opacity: 1;
+}
+
+.mobile_ofc_sol{
+    /* Layout Properties */
+top: 201px;
+left: 36px;
+width: 346px;
+height: 219px;
+/* UI Properties*/ 
+background: transparent url('../img/Energy-EfficientCooling\ SolutionsFor\ Offices.svg') 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+
+.mobile_text{
+    /*Text*/
+    /* Layout Properties */
+    top: 971px;
+    left: 54px;
+    width: 310px;
+    height: 59px;
+    /* UI Properties */
+    text-align: center;
+    font: normal normal normal 24px/30px Museo Sans;
+    letter-spacing: -0.6px;
+    color: #FFFFFF;
+    opacity: 1;
+    padding-top: 20px;
+    }
+
+.mobile_container_2{
+        /* Layout Properties */
+    top: 900px;
+    left: 0px;
+    width: 418px;
+    height: 780px;
+    /* UI Properties */
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+    }
+}
