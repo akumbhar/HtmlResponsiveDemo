@@ -122,6 +122,44 @@
             opacity: 1;
         }
 
+        .center_align {
+            margin: auto;
+            alignment: center;
+            width: 336px;
+            height: 482px;
+
+        }
+
+        .leb_resp {
+            box-shadow: 0px 10px 20px #00000014;
+            border: 1px solid #FFFFFF;
+            border-radius: 12px;
+            opacity: 1;
+            width: 460px;
+            height: 560px;
+            position: relative;
+            background: white;
+            margin-top: 100px;
+        }
+       /* @media screen and (max-width: 600px) {
+            div.swiper {
+                display: none;
+            }
+            div.center_align {
+                display: block;
+            }
+        }*/
+
+        @media screen and (min-width: 0px) and (max-width: 1000px) {
+            div.center_align { display: inline; }  /* show it on small screens */
+            div.swiper { display: none; }  /* show it on small screens */
+        }
+
+        @media screen and (min-width: 1001px) {
+            /*div.swiper { display: inline; }   !* hide it elsewhere *!*/
+            div.center_align { display: none; }  /* show it on small screens */
+
+        }
 
     </style>
 </head>
@@ -177,6 +215,51 @@
     </div>
     <div class="swiper-pagination"></div>
 </div>
+
+
+
+    <div class="center_align">
+
+        <div class="leb_resp">
+            <img src="img/product1.png" class="center" >
+            <div class="product_title" style="margin-top: 40px;">Venti-cool 25U</div>
+            <div class="product_description"style="margin: 40px 95px">Four side cooling pads for superior cooling</div>
+            <div style="margin: 20px"> <img src="img/Sticker.png" class="blockico"/></div>
+        </div>
+
+        <div class="leb_resp">
+            <img src="img/product2.png" class="center">
+            <div class="product_title" style="margin-top: 40px;">Venti-cool 20U</div>
+            <div class="product_description" style="margin: 40px 95px">Cool Flow Dispenser for enhanced cooling</div>
+            <div><img src="img/Sticker.png" class="blockico"/></div>
+        </div>
+
+        <div class="leb_resp">
+            <img src="img/product3.png" class="center">
+            <div class="product_title" style="margin-top: 40px;">Venti-cool 10U</div>
+            <div class="product_description"style="margin: 40px 95px">Weather resistant UV Stabilized engineering plastic body</div>
+            <div><img src="img/Sticker.png" class="blockico"/></div>
+        </div>
+
+        <div class="leb_resp">
+            <img src="img/product4.png" class="center">
+            <div class="product_title" style="margin-top: 40px;">Venti-cool 8U</div>
+            <div class="product_description" style="margin: 40px 95px">Modular units suitable for any area. One unit can cool up to 800 sq.ft.*</div>
+            <div><img src="img/Sticker.png" class="blockico"/></div>
+        </div>
+
+        <div class="leb_resp">
+            <img src="img/product5.png" class="center">
+            <div class="product_title" style="margin-top: 40px;">Movicool XXL</div>
+            <div class="product_description"
+                 style="margin: 40px 95px">Heavy duty lockable wheels for portability</div>
+            <div>
+                <img src="img/Sticker.png" class="blockico"/>
+            </div>
+        </div>
+
+    </div>
+
 
 <!-- Swiper JS -->
 <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
