@@ -1,5 +1,8 @@
 
 /* Desktop Layout Properties */
+html{
+    font-family: 'Museo Sans', Times, serif;
+}
 p{
     font-family: "Museo Sans 900", Regular;
     margin: 0px;
@@ -7,43 +10,22 @@ p{
     padding: 0px;
 }
 
+@media only screen and (min-width: 768px) {
+
 .Design{
-    width: 1600px;
-    height: 4295px;
-}
+        width: 1600px;
+        height: 4295px;
+    }
 
 .Banner{
-    top: 0px;
-    left: 0px;
-    width: 1600px;
-    height: 650px;
-    /* UI Properties */
-    background: transparent url('Images/Desktop Banner/Desktop Banner.png') 0% 0% no-repeat padding-box;
-    opacity: 1;
-}
+        /* top: 0px;
+        left: 0px; */
+        width: 1600px;
+        height: 650px;
 
-.logo{
-    position: absolute;
-    top: 47px;
-    left: 88px;
-    width: 171px;
-    height: 48px;
-    background: transparent url('Images/Desktop Banner/Logo.png') 0% 0% no-repeat padding-box;
-    opacity: 1;
-}
-.quote{
-    font-family: 'Museo Sans';
-    font-weight: 500;
-    font-size: 15px;
-    color: #ffffff;
-    position: absolute;
-    top: 107px;
-    left: 90px;
-    width: 186px;
-    height: 18px;
-    /* background: transparent url('img/Large Space Venti-Cooling.png') 0% 0% no-repeat padding-box; */
-    opacity: 1;
-}
+        background: transparent url('Images/Desktop Banner/Desktop Banner.png') 0% 0% no-repeat padding-box;
+        opacity: 1;
+    }
 
 .efcs{
     position: absolute;
@@ -62,110 +44,245 @@ p{
         color: #B1CA35;
         opacity: 100%;
     }
+    
+.visit_form{
+    position: absolute;
+    top: 104px;
+    left: 820px;
+    width: 700px;
+    height: 443px;
+    /* margin-right: 80px; */
+    padding: 12px;
+    background: #3077C7 0% 0% no-repeat padding-box;
+    border-radius: 12px;
+    opacity: 0.9;
+    float:right;
+    
+}
 
-  
-    .visit_form{
-        position: absolute;
-        top: 104px;
-        left: 820px;
-        width: 700px;
-        height: 443px;
-        /* margin-right: 80px; */
-        padding: 12px;
-        background: #3077C7 0% 0% no-repeat padding-box;
-        border-radius: 12px;
-        opacity: 0.9;
-        float:right;
+    .visit_form .form_head
+    {
+        /* top: 133px;
+        left: 889px; */
+        padding-top: 29px;
+        padding-left: 60px;
+        padding-right: 60px;
+        width: 562px;
+        height: 31px;
+        text-align: center;
+        font: normal normal 'Museo Sans';
+        font-size: 25px;
+        font-weight:500;
+        line-height: 32px;
+        letter-spacing: -0.65px;
+        color: #FFFFFF;
+        opacity: 1;
+    }
+
+.card{
+    width: 1600px;
+    /* height: 362px; */
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+    }
+
+    .card h3{
+        font-size: 48px;
+        width: 906px;
+        height: 57px;
+        margin: 50px;
+        text-align: center;
+        color: #1C71B7;
+        opacity: 1;
+    }
+
+    .card .cardBody{
+        width: 1000px;
+        height: 112px;
+        font-size: 22px;
+        line-height: 38px;
+        text-align: center;
+        
+        padding-bottom: 80px;
+    }
+
+
+    .card3{
+
+        width: 1600px;
+        height: 833px;
+
+        background: transparent url('Images/Background 2.png') 0% 0% no-repeat padding-box;
+        opacity: 1;
+    }
+    .card3 h3{
+        width: 882px;
+        height: 114px;
+        margin: 0;
+        padding-top: 64px; padding-bottom: 62px;
+        padding-left: 359px; padding-right: 359px;
+
+        font-family: 'Museo Sans', Courier, monospace;
+        font-weight:700;
+        font-size: 48px; line-height: 57px;
+        color: #FFFFFF;
+        opacity: 1;
+    }
+    .card3 .card3Body{
+        float: left;
+        width: 368px;
+        height: 518px;
+        padding: 15px 15px 15px 15px;
+        margin: 1px 27px 75px 27px;
+        /* transform: matrix(0, 1, -1, 0, 0, 0); */
+        /* background: transparent url('img/Card 1.png') 0% 0% no-repeat padding-box; */
+        color: #FFFFFF;
+        background-color: #A6BA3D;
+        border: 3px solid #CEE268;
+        border-radius: 15px;
+        opacity: 1;
+        text-align: center;
+
+    }
+
+    .cardTitle{
+        width: 129px;
+        height: 129px;
+        background-image: linear-gradient(#3271B3, #0852A0);
+        border-radius: 50%;
+        margin: auto;
+        align-items: center;
+        justify-content: center;
+        
+    }
+
+    .cardTitle img{
+        margin: auto;
+    }
+
+
+      .row > div{
+        text-align: center;
+      }
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+        
+      }
       
-        }
-        .visit_form .form_head
-        {
-            /* top: 133px;
-            left: 889px; */
-            padding-top: 29px;
-            padding-left: 60px;
-            padding-right: 60px;
-            width: 562px;
-            height: 31px;
-            text-align: center;
-            font: normal normal 'Museo Sans';
-            font-size: 25px;
-            font-weight:500;
-            line-height: 32px;
-            letter-spacing: -0.65px;
-            color: #FFFFFF;
-            opacity: 1;
-        }
-        .visit_form .textBox{
-            margin: 6px;
-            width: 320px;
-            height: 48px;
-            text-align: left;
-            font-size: 17px;
-            border-radius: 4px;
-
-            background: #FFFFFF 0% 0% no-repeat padding-box;
-            box-shadow: 0px 2px 0px #175193;
-            opacity: 1;
+      .row .col1{
+        margin-left: 105px;
+      }
+      .row .col2{
+        margin-left: 55px;
+        margin-right: 55px;
+      }
+      .row .col3{
+        margin-right: 105px;
+      }
 
 
-        }
-        .dropDown{
-            margin: 6px;
-            width: 330px;
-            height: 48px;
-            text-align: left;
-            font-size: 17px;
+    
+}
 
-            border-radius: 4px;
+    .logo{
+        position: absolute;
+        top: 47px;
+        left: 88px;
+        width: 171px;
+        height: 48px;
+        background: transparent url('Images/Desktop Banner/Logo.png') 0% 0% no-repeat padding-box;
+        opacity: 1;
+    }
+    .quote{
+        font-family: 'Museo Sans';
+        font-weight: 500;
+        font-size: 15px;
+        color: #ffffff;
+        position: absolute;
+        top: 107px;
+        left: 90px;
+        width: 186px;
+        height: 18px;
+        /* background: transparent url('img/Large Space Venti-Cooling.png') 0% 0% no-repeat padding-box; */
+        opacity: 1;
+    }
 
-            background: #FFFFFF 0% 0% no-repeat padding-box;
-            box-shadow: 0px 2px 0px #175193;
-            opacity: 1;
-        }
 
-        .submit_btn{
-            /* Layout Properties */
-            top: 475px;
-            left: 1010px;
-            width: 321px;
-            height: 48px;
-            background: #C0D941 0% 0% no-repeat padding-box;
-            box-shadow: inset 0px 35px 5px #CDE069;
-            opacity: 1;
-            margin-top: 8px;
+    .visit_form .textBox{
+        margin: 6px;
+        width: 320px;
+        height: 48px;
+        text-align: left;
+        font-size: 17px;
+        border-radius: 4px;
 
-            text-align: center;
-            font: normal normal normal 23px/19px Museo Sans;
-            letter-spacing: 0px;
-            color: #000000;
-            text-transform: uppercase;
-            opacity: 1;
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        box-shadow: 0px 2px 0px #175193;
+        opacity: 1;
 
-            }
+
+    }
+    .dropDown{
+        margin: 6px;
+        width: 330px;
+        height: 48px;
+        text-align: left;
+        font-size: 17px;
+
+        border-radius: 4px;
+
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        box-shadow: 0px 2px 0px #175193;
+        opacity: 1;
+    }
+
+    .submit_btn{
+
+        width: 321px;
+        height: 48px;
+        background: #C0D941 0% 0% no-repeat padding-box;
+        box-shadow: inset 0px 35px 5px #CDE069;
+        opacity: 1;
+        margin-top: 18px;
+
+        text-align: center;
+        font: normal normal normal 23px/19px Museo Sans;
+        letter-spacing: 0px;
+        color: #000000;
+        text-transform: uppercase;
+        opacity: 1;
+
+    }
+
 
 
             /* .For Mobile View. */
 
 @media only screen and (max-width: 768px) {
+
+    .Design{
+        width: 418px;
+        height: 7665px;
+    }
+
     .MobileBanner{
-        top: 0px;
-        left: 0px;
         width: 418px;
         height: 900px;
         background: transparent url('Images/Desktop Banner/Mobile Banner.png') 0% 0% no-repeat padding-box;
         opacity: 1;
     }
 
-    
     .MobileEfcs{
-        position: absolute;
+        
         color: #ffffff;
         font-family: 'Museo Sans 900'; 
         font-weight: 900;
         font-size: 48px;
         text-align: left;
     
+        position: absolute;
         top: 201px;
         left: 36px;
         width: 346px;
@@ -176,4 +293,185 @@ p{
             opacity: 100%;
         }
 
+    .mobile_form{
+        margin-top: 50px; margin-bottom: 33px;
+        margin-left: 40px; margin-right: 40px;
+        width: 336px;
+        height: auto; /* height: 699px; */
+        padding: 25px;
+        background: #3077C7 0% 0% no-repeat padding-box;
+        border-radius: 12px;
+        opacity: 0.9;
+        float:left;
+    }
+    .mobile_form .mobile_head{
+        padding-top: 23px;
+        padding-left: 13px;
+        padding-right: 13px;
+
+        width: 310px;
+        height: 59px;
+        font-size: 24px;
+        text-align: center;
+        font: normal normal Museo Sans;
+        letter-spacing: -0.6px;
+        color: #FFFFFF;
+        opacity: 1;
+    }
+
+
+.mobileCard{
+
+    width: 418px;
+    /* height: 514px; */
+    background-color: #FFFFFF;
+
 }
+
+    .mobileCard h3{
+
+        width: 296px;
+        /* height: 66px; */
+        color: #1C71B7;
+        text-align: center;
+        font-size: 28px;
+        line-height: 33px;
+
+        margin-top: 33px; margin-bottom: 0px;
+        margin-left: 55px;
+    }
+    .mobileCard .mobCaedBody{
+        width: 336px;
+        /* height: 317px; */
+        font-family:Museo Sans, 500;
+        
+        font-size: 22px;
+        text-align: center; 
+        margin-left: 20px;
+        margin-bottom: 25px;
+        
+        line-height: 38px;
+        padding-top: 44px;padding-bottom: 25px;
+        padding-left: 40px; padding-right: 40px;
+
+    }
+
+
+}
+
+@font-face {
+    font-family: font_300;
+    src: url("font/MuseoSans_300.otf");
+}
+
+
+@font-face {
+    font-family: font_700;
+    src: url("font/MuseoSans_700.otf");
+}
+
+@font-face {
+    font-family: font_500;
+    src: url("font/MuseoSans_500.otf")
+}
+
+/*.blockico {
+    position: absolute;
+    right: 20px;
+    top: -50px;
+    width: 100px;
+    height: 100px;
+    background: white;
+    border-radius: 100px;
+}
+
+.product_title {
+    font-family: font_700;
+    font-size: 38px;
+    text-align: center;
+    color: #3271B3;
+}
+
+.product_description {
+    font-family: font_500;
+    font-size: 22px;
+    text-align: center;
+    color: black;
+}*/
+
+.product-container{
+    width: 100%;
+    height: 1000px;
+    background: #2B6AB2 0% 0% no-repeat padding-box
+}
+
+
+
+.product-container-title {
+    font-family: font_700;
+    font-size: 48px;
+    text-align: center;
+    color: white;
+    padding-top: 65px;
+}
+
+.questions-container{
+    width: 100%;
+    height: 400px;
+    background: white;
+}
+
+.copyright-container{
+    width: 100%;
+    height: 60px;
+    background: white;
+}
+
+
+.footer_common {
+    color: #909090;
+    background: black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 80px;
+    font-family: font_300;
+    font-size: 18px;
+}
+
+.questions-title {
+    font-family: font_700;
+    font-size: 48px;
+    text-align: center;
+    color: #1C71B7;
+    padding-top: 65px;
+}
+
+.questions-details {
+    font-family: font_700;
+    font-size: 28px;
+    text-align: center;
+    color: black;
+    padding-top: 65px;
+}
+
+.submit_question{
+
+    width: 184px;
+    height: 68px;
+    background: #3170B3 0% 0% no-repeat padding-box;
+    box-shadow: inset 0px 35px 5px #3170B3;
+    opacity: 1;
+    margin-top: 64px;
+
+    text-align: center;
+    font-family: font_700;
+    font-size: 28px;
+
+    letter-spacing: 0px;
+    color: white;
+    text-transform: uppercase;
+    opacity: 1;
+
+
+}
+

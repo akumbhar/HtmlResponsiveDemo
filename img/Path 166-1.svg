@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="360.036" height="67.6" viewBox="0 0 360.036 67.6">
+  <defs>
+    <filter id="Path_166" x="0" y="0" width="360.036" height="67.6" filterUnits="userSpaceOnUse">
+      <feOffset dy="35" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feFlood flood-color="#417dbc" result="color"/>
+      <feComposite operator="out" in="SourceGraphic" in2="blur"/>
+      <feComposite operator="in" in="color"/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g data-type="innerShadowGroup">
+    <path id="Path_166-2" data-name="Path 166" d="M4.8,0H355.236c2.651,0,4.8,2.65,4.8,5.92V60.68c0,3.27-2.149,5.92-4.8,5.92L4.8,67.6C2.149,67.6,0,64.95,0,61.68V5.92C0,2.65,2.149,0,4.8,0Z" fill="#3170b3"/>
+    <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Path_166)">
+      <path id="Path_166-3" data-name="Path 166" d="M4.8,0H355.236c2.651,0,4.8,2.65,4.8,5.92V60.68c0,3.27-2.149,5.92-4.8,5.92L4.8,67.6C2.149,67.6,0,64.95,0,61.68V5.92C0,2.65,2.149,0,4.8,0Z" fill="#fff"/>
+    </g>
+  </g>
+</svg>
