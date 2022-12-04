@@ -34,7 +34,7 @@ p{
 .efcs{
     position: absolute;
     color: #ffffff;
-    font-family: 'Museo Sans 900'; 
+    font-family: 'Museo Sans 900';
     font-weight: 900;
     font-size: 55px;
     text-align: left;
@@ -48,7 +48,7 @@ p{
         color: #B1CA35;
         opacity: 100%;
     }
-    
+
 .visit_form{
     position: absolute;
     top: 104px;
@@ -61,7 +61,7 @@ p{
     border-radius: 12px;
     opacity: 0.9;
     float:right;
-    
+
 }
 
     .visit_form .form_head
@@ -107,7 +107,7 @@ p{
         font-size: 22px;
         line-height: 38px;
         text-align: center;
-        
+
         padding-bottom: 80px;
     }
     .card .cliBody{
@@ -135,7 +135,7 @@ p{
         color: #FFFFFF;
         opacity: 1;
     }
-    
+
     .card3 .card3Body{
         float: left;
         width: 368px;
@@ -163,7 +163,7 @@ p{
         margin: auto;
         align-items: center;
         justify-content: center;
-        
+
     }
 
     .cardTitle img{
@@ -191,16 +191,17 @@ p{
         padding: 5px 5px;
     }
     .prodCont{
+        width: auto;
         color: #3271B3 !important;
         font-size: 38px !important;
         height: 46px !important;
-        padding: 20px 5px !important;
+        padding: 10px 5px !important;
     }
     .prodPara{
         color: #000000!important;
         padding: 1px 10px 25px 10px;
     }
- 
+
 
 
 
@@ -267,7 +268,7 @@ p{
     margin: auto;
     align-items: center;
     justify-content: center;
-    
+
 }
 .warentySeal2{
     position: absolute !important;
@@ -305,13 +306,13 @@ p{
     /* background: transparent url('Images/1.png') 0% 0% no-repeat padding-box; */
     opacity: 1;
     padding-top: 40px;
-    
+
     /* .below Makes Images center hor/vert. */
     display: flex;
     margin: auto;
     align-items: center;
     justify-content: center;
-    
+
 }
 
 
@@ -323,7 +324,7 @@ p{
     content: "";
     display: table;
     clear: both;
-    
+
   }
   .row .col1{
     margin-left: 105px;
@@ -335,27 +336,30 @@ p{
   .row .col3{
     margin-right: 105px;
   }
-    
+
   footer{
     width: 1600px;
-    height: 61px;
+    height: 30px;
     background: #1D1D1D 0% 0% no-repeat padding-box;
     opacity: 1;
 
     text-align: left;
-    font: normal normal normal 16px/19px Museo Sans;
+    font-family: Museo Sans;
     letter-spacing: 0px;
     color: #909090;
     opacity: 1;
     font-size: 16px;
     line-height: 19px;
-    text-align: left;
-    
+
     padding: 10px;
 }
 
-footer span{
-    text-align: right !important;
+footer .Leftalign{
+    float:left;width:50%;
+}
+
+footer .Rightalign{
+    float:right;width:20%;
 }
 
 
@@ -443,7 +447,7 @@ footer span{
 
     }
     .clbg{
-        background: transparent url('Images/BG.png') 0% 0%  padding-box; 
+        background: transparent url('Images/BG.png') 0% 0%  padding-box;
     }
 
 
@@ -464,13 +468,13 @@ footer span{
     }
 
     .MobileEfcs{
-        
+
         color: #ffffff;
-        font-family: 'Museo Sans 900'; 
+        font-family: 'Museo Sans 900';
         font-weight: 900;
         font-size: 48px;
         text-align: left;
-    
+
         position: absolute;
         top: 201px;
         left: 36px;
@@ -534,11 +538,11 @@ footer span{
         width: 336px;
         /* height: 317px; */
         font-family:Museo Sans, 500;
-        
+
         font-size: 22px;
-        text-align: center; 
+        text-align: center;
         margin: auto;
-        
+
         line-height: 38px;
         padding-top: 44px;padding-bottom: 25px;
         padding-left: 40px; padding-right: 40px;
@@ -547,7 +551,7 @@ footer span{
 
 
 
-    
+
     .mobileCard3{
         width: 418px;
         /* height: 833px; */
@@ -567,9 +571,9 @@ footer span{
         color: #FFFFFF;
         opacity: 1;
     }
-    
+
     .mobileCard3 .card3Body{
-        
+
         width: 305px;
         height: 449px;
         padding: 15px 15px 15px 15px;
@@ -595,7 +599,7 @@ footer span{
         margin: auto;
         align-items: center;
         justify-content: center;
-        
+
     }
 
     .cardTitle img{
@@ -616,7 +620,7 @@ footer span{
 
     /* .mobileCard3 .card3Body  */
     .cardPara{
-        padding: 0px 40px auto 40px;
+        padding: 0px 40px 20px 40px;
         font-family: Museo Sans; font-weight: 500;
         font-size: 28px; line-height: 38px;
         color: #FFFFFF;
@@ -634,13 +638,13 @@ footer span{
         color: #000000!important;
         padding: 1px 10px 25px 10px;
     }
- 
-   
-    
+
+
+
 .mobile_clients{
-    width: 80%; 
+    width: 80%;
     opacity: 1;
-} 
+}
 .mobile_clients .Cocola{
     display: inline-block;
     width: 18%;
@@ -675,7 +679,7 @@ footer span{
     height: 449px;
     padding: 15px 15px 15px 15px;
     margin: 10px 40px;
- 
+
     color: #000000;
     background-color: #FFFFFF;
     border: 1px solid #FFFFFF;
@@ -691,13 +695,13 @@ footer span{
     /* background: transparent url('Images/1.png') 0% 0% no-repeat padding-box; */
     opacity: 1;
     padding-top: 40px;
-    
+
     /* .below Makes Images center hor/vert. */
     display: flex;
     margin: auto;
     align-items: center;
     justify-content: center;
-    
+
 }
 
 .warenty{
@@ -713,7 +717,7 @@ footer span{
     margin: auto;
     align-items: center;
     justify-content: center;
-    
+
 }
 .warentySeal2{
     position: absolute !important;
@@ -729,7 +733,7 @@ footer span{
 }
 footer{
     width: 418px;
-    height: 98px;
+    height: 50px;
     background: #1D1D1D 0% 0% no-repeat padding-box;
     opacity: 1;
 
@@ -741,7 +745,7 @@ footer{
     font-size: 16px;
     line-height: 19px;
     text-align: center;
-    
+
     padding: 10px;
 }
 
