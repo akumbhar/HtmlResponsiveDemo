@@ -1,3 +1,7 @@
+@font-face {
+    font-family: Museo Sans;
+    src: url(fonts/MuseoSans_700.otf);
+  }
 
 /* Desktop Layout Properties */
 html{
@@ -236,7 +240,9 @@ p{
 .row .cli5{
     margin-right: 105px;
 }
-
+.row .desktopcli{
+    display: none;
+}
 .clients .ClintGrp{
     display: none;
 }
@@ -503,6 +509,7 @@ footer span{
     }
 
 
+
 .mobileCard{
 
     width: 418px;
@@ -628,18 +635,17 @@ footer span{
         padding: 1px 10px 25px 10px;
     }
  
-
-.clients{
-    margin: auto;
-    width: 373px;
-    height: 56px;
+   
+    
+.mobile_clients{
+    width: 80%; 
     opacity: 1;
+} 
+.mobile_clients .Cocola{
+    display: inline-block;
+    width: 18%;
 }
-
-.clients .ClintGrp{
-    display: block;
-}
-.clients .Cocola{
+.row .cli1{
     display: none;
 }
 .row .cli2{
@@ -658,6 +664,8 @@ footer span{
 .mobileCard .BrocBdy{
     padding: 40px;
 }
+
+
 
 
 
