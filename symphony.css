@@ -751,4 +751,8 @@ footer{
 
 
 }
+.slick-dots li.slick-active button:before {
+    color: white !important;
+}
+
 
