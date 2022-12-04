@@ -18,7 +18,7 @@ p{
 
 .Design{
         width: 1600px;
-        height: 4295px;
+        /* height: 4295px; */
     }
 
 .Banner{
@@ -126,7 +126,7 @@ p{
         width: 882px;
         height: 114px;
         margin: 0;
-        padding-top: 64px; padding-bottom: 62px;
+        padding-top: 64px; padding-bottom: 10px;
         padding-left: 359px; padding-right: 359px;
 
         font-family: 'Museo Sans', Courier, monospace;
@@ -212,7 +212,7 @@ p{
     margin: 30px;
     padding: 10px 10px 10px 10px;
     color: #F8F8F8;
-    background: transparent url('Images/Rectangle 221.svg') 0% 0% no-repeat padding-box;
+    background-color: #F8F8F8;
     border: 1px solid #D8D8D8;
     border-radius: 10px;
     opacity: 1;
@@ -257,8 +257,12 @@ p{
 
 .card3 .warenty{
     position: absolute;
-    top: 2922px;
+    top: 1px;
     left: 390px;
+    
+    /* left: 1977px;
+    right: 4851px; */
+
     width: 100px;
     height: 100px;
     background-color: #ffffff;
@@ -272,14 +276,21 @@ p{
 }
 .warentySeal2{
     position: absolute !important;
-    top: 2922px !important;
+    top: 1px !important;
     left: 860px !important;
+    
+    left: 2416px;
+    right: 4348px;
+
 
 }
 .warentySeal3{
     position: absolute !important;
-    top: 2930px !important;
+    top: 1px !important;
     left: 1350px !important;
+
+    /* left: 2416px;
+    right: 4348px; */
 
 }
 
@@ -288,7 +299,7 @@ p{
     width: 368px;
     height: 518px;
     padding: 15px 15px 15px 15px;
-    margin: 1px 27px 5px 27px;
+    margin: 50px 27px 5px 27px;
     /* transform: matrix(0, 1, -1, 0, 0, 0); */
     /* background: transparent url('img/Card 1.png') 0% 0% no-repeat padding-box; */
     color: #000000;
@@ -314,8 +325,6 @@ p{
     justify-content: center;
 
 }
-
-
 
 .row > div{
     text-align: center;
@@ -362,9 +371,7 @@ footer .Rightalign{
     float:right;width:20%;
 }
 
-
 }
-
 
 
 .card button{
@@ -457,7 +464,7 @@ footer .Rightalign{
 
     .Design{
         width: 418px;
-        height: 7665px;
+        /* height: 7665px; */
     }
 
     .MobileBanner{
